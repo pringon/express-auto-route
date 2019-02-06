@@ -1,0 +1,28 @@
+{
+  "name": "typescript-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index",
+  "types": "src/index",
+  "scripts": {
+    "start": "nodemon --config nodemon.json", 
+    "build": "tsc -p .",
+    "lint": "tslint --project tsconfig.json src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "@types/node": "^10.12.21",
+    "nodemon": "^1.18.9",
+    "ts-node": "^8.0.2",
+    "tslint": "^5.12.1",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.3.1"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

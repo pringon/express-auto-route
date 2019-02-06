@@ -1,0 +1,17 @@
+{
+    "extends": [
+      "tslint-eslint-rules",
+      "tslint-config-airbnb"
+    ],
+    "rules": {
+      "no-console": {
+        "severity": "warning"
+      }
+    },
+    "jsRules": {
+      "no-console": {
+        "severity": "warning"
+      }
+    }
+}
+

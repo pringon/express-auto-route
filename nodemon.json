@@ -1,0 +1,6 @@
+{
+  "verbose": true,
+  "ext": "js,json,ts",
+  "watch": "src/**/*",
+  "exec": "npm run lint && ts-node src/index.ts"
+}
