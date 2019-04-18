@@ -28,6 +28,9 @@ jobs:
 
       - run: npm install
 
+      # fix error with installing @types
+      - run: rm -rf node_modules/@types/babel__core/ node_modules/@types/babel__template/
+
       - save_cache:
           paths:
             - node_modules
