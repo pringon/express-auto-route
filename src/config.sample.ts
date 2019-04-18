@@ -2,5 +2,5 @@
 export const PORT: number = 3000;
 
 export default {
-  PORT
+  PORT,
 };

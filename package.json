@@ -9,7 +9,7 @@
     "dev": "nodemon --config nodemon.json",
     "test": "jest",
     "build": "tsc -p .",
-    "lint": "tslint --project tsconfig.json src/index.ts"
+    "lint": "tslint --project tsconfig.json src/{,**/}*.ts"
   },
   "keywords": [],
   "author": "",
