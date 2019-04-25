@@ -1,0 +1,10 @@
+version: "3"
+services:
+  server:
+    container_name: express-typescript-server
+    build: .
+    command: npm run dev
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/opt/server
