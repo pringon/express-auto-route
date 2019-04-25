@@ -1,4 +1,9 @@
-import express from 'express';
+import express, {
+  Request,
+  Response,
+  NextFunction,
+} from 'express';
+import { default as createError, HttpError } from 'http-errors';
 
 import { PORT } from './config';
 
@@ -8,6 +13,17 @@ import { helloWorld } from './helloWorld';
 
 app.get('/', (req: express.Request, res: express.Response) => {
   res.json({ message: helloWorld() });
+});
+
+// Handle not found.
+app.use((req, res, next) => {
+  return next(createError(404, 'Resource not found'));
+});
+
+// Handle errors.
+app.use((err: Error | HttpError, req: Request, res: Response, next: NextFunction) => {
+  // @ts-ignore
+  res.status(err.status || 500).send(err.message);
 });
 
 app.listen(PORT, (err: Error) => {
