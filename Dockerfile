@@ -10,7 +10,7 @@ RUN npm install
 RUN npm run build
 
 # Export port.
-EXPOSE 5000
+EXPOSE 3000
 
 # Start application.
 CMD [ "npm", "start" ]
