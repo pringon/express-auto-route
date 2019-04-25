@@ -28,7 +28,10 @@ jobs:
 
       - run: npm install
 
-      # fix error with installing @types
+      # Init config file.
+      - run: cp src/config.sample.ts src/config.ts
+
+      # Fix error with installing @types.
       - run: rm -rf node_modules/@types/babel__core/ node_modules/@types/babel__template/
 
       - save_cache:
@@ -36,8 +39,8 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      # run linter
+      # Run linter.
       - run: npm run lint
 
-      # run tests
+      # Run tests.
       - run: npm run test
