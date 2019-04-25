@@ -30,5 +30,6 @@ app.listen(PORT, (err: Error) => {
   if (err) {
     throw err;
   }
+  // tslint:disable-next-line:no-console
   console.log(`App is listening on port ${PORT}`);
 });
