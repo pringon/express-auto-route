@@ -11,8 +11,6 @@ import Router from './Router';
 
 import { PORT } from './config';
 
-import { helloWorld } from './helloWorld';
-
 export default class Server {
   public static readonly PORT: number = 3000;
   private app: Application;
@@ -48,12 +46,7 @@ export default class Server {
   }
 
   public route(): void {
-    // Insert routes here.
-    this.app.get('/', (req: express.Request, res: express.Response) => {
-      res.json({ message: helloWorld() });
-    });
-    this.router.route();
-
+    this.router.route(this.app);
     this.handleNotFound();
     this.handleErrors();
   }

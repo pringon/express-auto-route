@@ -1,9 +1,13 @@
+import Controller from './controllers/Controller';
+import { IRoute } from './interfaces/Route';
+import { Application } from 'express';
 import { getControllers } from './controllers';
+
 export default class Router {
   // @ts-ignore
-  private controllers: object[];
+  private controllers: Controller[];
 
-  constructor(controllers: object[]) {
+  constructor(controllers: Controller[]) {
     this.controllers = controllers;
   }
 
@@ -19,7 +23,15 @@ export default class Router {
     });
   }
 
-  public route(): void {
-    console.log(this.controllers);
+  public route(app: Application): void {
+    this.controllers.forEach((controller) => {
+      // @ts-ignore
+      const instance = new controller();
+      instance.getRoutes().forEach((route: IRoute) => {
+        const middlewares = route.middlewares || [];
+        // @ts-ignore
+        app[route.method](route.url, ...middlewares, instance[route.methodName]);
+      });
+    });
   }
 }
