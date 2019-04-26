@@ -7,20 +7,38 @@ import express, {
 import http from 'http';
 import { default as createError, HttpError } from 'http-errors';
 
+import { Router, RouterFactory } from './Router';
+
 import { PORT } from './config';
 
 import { helloWorld } from './helloWorld';
 
-class Server {
+export abstract class ServerFactory {
+
+  public static getServer(): Promise<Server> {
+    return new Promise<Server>(async(resolve, reject) => {
+      try {
+        const router = await RouterFactory.getRouter();
+        return resolve(new Server(router));
+      } catch (e) {
+        return reject(e);
+      }
+    });
+  }
+}
+
+export class Server {
   public static readonly PORT: number = 3000;
   private app: Application;
   private server: http.Server;
+  private router: Router;
   private port: number | string;
   private running: boolean;
 
-  constructor() {
+  constructor(router: Router) {
     this.app = express();
     this.server = http.createServer(this.app);
+    this.router = router;
     this.port = PORT || Server.PORT;
     this.running = false;
   }
@@ -37,16 +55,14 @@ class Server {
     this.app.get('/', (req: express.Request, res: express.Response) => {
       res.json({ message: helloWorld() });
     });
+    this.router.route();
 
     this.handleNotFound();
     this.handleErrors();
   }
 
   public start(): void {
-    this.server.listen(this.port, (err: Error) => {
-      if (err) {
-        throw err;
-      }
+    this.server.listen(this.port, () => {
       this.running = true;
       // tslint:disable-next-line:no-console
       console.log(`Server is listening on port ${this.port}.`);
@@ -66,5 +82,3 @@ class Server {
     });
   }
 }
-
-export default Server;
