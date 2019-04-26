@@ -1,7 +1,7 @@
-import { ServerFactory } from './Server';
+import Server from './Server';
 
 (async () => {
-  const app = await ServerFactory.getServer();
+  const app = await Server.getDefault();
   app.route();
   app.start();
 })();
