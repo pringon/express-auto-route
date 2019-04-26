@@ -1,8 +1,13 @@
 import { getControllers } from './controllers';
+export default class Router {
+  // @ts-ignore
+  private controllers: object[];
 
-export abstract class RouterFactory {
+  constructor(controllers: object[]) {
+    this.controllers = controllers;
+  }
 
-  public static getRouter(): Promise<Router> {
+  public static getDefault(): Promise<Router> {
     return new Promise<Router>(async (resolve, reject) => {
       try {
         const controllers = await getControllers();
@@ -12,15 +17,6 @@ export abstract class RouterFactory {
         return reject(e);
       }
     });
-  }
-}
-
-export class Router {
-  // @ts-ignore
-  private controllers: object[];
-
-  constructor(controllers: object[]) {
-    this.controllers = controllers;
   }
 
   public route(): void {

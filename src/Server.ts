@@ -7,27 +7,13 @@ import express, {
 import http from 'http';
 import { default as createError, HttpError } from 'http-errors';
 
-import { Router, RouterFactory } from './Router';
+import Router from './Router';
 
 import { PORT } from './config';
 
 import { helloWorld } from './helloWorld';
 
-export abstract class ServerFactory {
-
-  public static getServer(): Promise<Server> {
-    return new Promise<Server>(async(resolve, reject) => {
-      try {
-        const router = await RouterFactory.getRouter();
-        return resolve(new Server(router));
-      } catch (e) {
-        return reject(e);
-      }
-    });
-  }
-}
-
-export class Server {
+export default class Server {
   public static readonly PORT: number = 3000;
   private app: Application;
   private server: http.Server;
@@ -41,6 +27,17 @@ export class Server {
     this.router = router;
     this.port = PORT || Server.PORT;
     this.running = false;
+  }
+
+  public static getDefault(): Promise<Server> {
+    return new Promise<Server>(async(resolve, reject) => {
+      try {
+        const router = await Router.getDefault();
+        return resolve(new Server(router));
+      } catch (e) {
+        return reject(e);
+      }
+    });
   }
 
   public setPort(port: number | string): void {
