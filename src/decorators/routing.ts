@@ -35,7 +35,7 @@ export const controller = (...args: (string | Function)[]) => {
     proto.$routes = Object.getOwnPropertyNames(proto)
       .filter(prop => prop.indexOf(PRE) === 0)
       .map((prop) => {
-        const { method, path, actionMiddlewares } = proto[prop];
+        const { method, path, middlewares: actionMiddlewares } = proto[prop];
         const url = `${controllerPath}${path}`;
         const middlewares = controllerMiddlewares.concat(actionMiddlewares);
         const methodName = prop.substring(PRE.length);

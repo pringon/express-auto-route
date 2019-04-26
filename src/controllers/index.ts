@@ -1,11 +1,12 @@
 import fs from 'fs';
 import path from 'path';
+import Controller from './Controller';
 
 const basename = path.basename(__filename);
 
 const getPath = (file: string) => path.join(__dirname, file);
 
-export const getControllers = (): Promise<any> => {
+export const getControllers = (): Promise<Controller[]> => {
   // Load controller files.
   const controllerFiles = fs.readdirSync(__dirname)
     .filter((file) => {
@@ -13,7 +14,7 @@ export const getControllers = (): Promise<any> => {
       return (file.indexOf('.') !== 0) && (file !== basename)
           && (file.slice(-14) === '.controller.ts');
     });
-  return new Promise<any>(async (resolve, reject) => {
+  return new Promise<Controller[]>(async (resolve, reject) => {
     try {
       // Load imports from controller files.
       const importedModules = await Promise

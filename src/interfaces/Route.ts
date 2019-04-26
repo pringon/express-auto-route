@@ -4,7 +4,3 @@ export interface IRoute {
   middlewares?: Function[];
   methodName: string;
 }
-
-export interface IController {
-  $routes: IRoute[];
-}
