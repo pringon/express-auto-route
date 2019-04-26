@@ -14,7 +14,7 @@
 - ```docker build -t <image-name> .```
   - This will generate a docker image ready to be used on whatever cloud service you want (don't forget the **dot**!).
 - ```docker push <image-name>```
-  - Makes getting the image onto the cloud machine a little easier.
+  - Pushes the image to the registry so it can be downloaded by other machines. Makes getting the image onto the cloud machine a little easier.
 
 ## Testing
 
