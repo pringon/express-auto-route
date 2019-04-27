@@ -5,6 +5,9 @@ abstract class Controller {
   protected $routes: IRoute[];
 
   public getRoutes(): IRoute[] {
+    if (!this.$routes) {
+      throw new Error('Invalid controller. Did you use routing decorators?');
+    }
     return this.$routes;
   }
 }
