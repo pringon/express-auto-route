@@ -4,7 +4,6 @@ import { Application } from 'express';
 import { getControllers } from './controllers';
 
 export default class Router {
-  // @ts-ignore
   private controllers: Controller[];
 
   constructor(controllers: Controller[]) {

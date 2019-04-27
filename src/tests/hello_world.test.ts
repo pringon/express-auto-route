@@ -1,5 +1,5 @@
-import { hello } from '../helloWorld';
+const hello = () => 'Hello world!';
 
 test('something', () => {
-  expect(hello()).toBe('Hello World!');
+  expect(hello()).toBe('Hello world!');
 });
