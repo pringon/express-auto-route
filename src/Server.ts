@@ -26,12 +26,28 @@ export default class Server {
   private port: number | string;
   private running: boolean;
 
-  constructor(router: Router) {
+  constructor() {
     this.app = express();
     this.server = http.createServer(this.app);
-    this.router = router;
+    this.router = Router.getEmptyRouter();
     this.port = PORT || Server.PORT;
     this.running = false;
+  }
+
+  /**
+   * Getter method for app property.
+   * @returns {express.Application} express application instance used in this server instance.
+   */
+  public getApp(): Application {
+    return this.app;
+  }
+
+  /**
+   * Getter method for server property.
+   * @returns {http.Server} http server instance used in this server instance.
+   */
+  public getServer(): http.Server {
+    return this.server;
   }
 
   /**
@@ -42,7 +58,8 @@ export default class Server {
     return new Promise<Server>(async(resolve, reject) => {
       try {
         const router = await Router.getDefault();
-        const server = new Server(router);
+        const server = new Server();
+        server.setRouter(router);
         return resolve(server);
       } catch (e) {
         return reject(e);
@@ -52,9 +69,16 @@ export default class Server {
 
   public setPort(port: number | string): void {
     if (this.running) {
-      throw new Error('Cannot change port after application has started.');
+      throw Error('Cannot change port after application has started.');
     }
     this.port = port;
+  }
+
+  public setRouter(router: Router): void {
+    if (this.running) {
+      throw Error('Cannot change router after application has started');
+    }
+    this.router = router;
   }
 
   public route({
