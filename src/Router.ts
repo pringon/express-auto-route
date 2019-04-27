@@ -27,9 +27,9 @@ export default class Router {
       // @ts-ignore
       const instance = new controller();
       instance.getRoutes().forEach((route: IRoute) => {
-        const middlewares = route.middlewares || [];
+        const { methodName, method, url, middlewares } = route;
         // @ts-ignore
-        app[route.method](route.url, ...middlewares, instance[route.methodName]);
+        app[method](url, middlewares, instance[methodName]);
       });
     });
   }
