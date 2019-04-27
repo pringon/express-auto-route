@@ -3,6 +3,8 @@ import express, {
   Request,
   Response,
   NextFunction,
+  RequestHandler,
+  ErrorRequestHandler,
 } from 'express';
 import http from 'http';
 import { default as createError, HttpError } from 'http-errors';
@@ -10,6 +12,11 @@ import { default as createError, HttpError } from 'http-errors';
 import Router from './Router';
 
 import { PORT } from './config';
+
+interface IRouteOptions {
+  notFoundCallback?: RequestHandler;
+  errorHandler?: ErrorRequestHandler;
+}
 
 export default class Server {
   public static readonly PORT: number = 3000;
@@ -27,6 +34,10 @@ export default class Server {
     this.running = false;
   }
 
+  /**
+   * A static method that returs a server using the default router provided by this project.
+   * @returns {Promise<Server>} promise resolves to an instance of the server class.
+   */
   public static getDefault(): Promise<Server> {
     return new Promise<Server>(async(resolve, reject) => {
       try {
@@ -46,10 +57,13 @@ export default class Server {
     this.port = port;
   }
 
-  public route(): void {
+  public route({
+    notFoundCallback = this.notFound,
+    errorHandler = this.errorHandler,
+  }: IRouteOptions = {}): void {
     this.router.route(this.app);
-    this.handleNotFound();
-    this.handleErrors();
+    this.app.use(notFoundCallback);
+    this.app.use(errorHandler);
   }
 
   public start(): void {
@@ -60,16 +74,14 @@ export default class Server {
     });
   }
 
-  private handleNotFound(): void {
-    this.app.use((req, res, next) => {
-      return next(createError(404, 'Resource not found'));
-    });
+  private notFound(req: Request, res: Response, next: NextFunction): void {
+    return next(createError(404, 'Resource not found'));
   }
 
-  private handleErrors(): void {
-    this.app.use((err: Error | HttpError, req: Request, res: Response, next: NextFunction) => {
-      // @ts-ignore
-      res.status(err.status || 500).send(err.message);
-    });
+  private errorHandler(
+    err: Error | HttpError, req: Request, res: Response, next: NextFunction,
+  ): void {
+    // @ts-ignore
+    return res.status(err.status || 500).send(err.message);
   }
 }
