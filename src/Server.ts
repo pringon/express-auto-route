@@ -31,7 +31,8 @@ export default class Server {
     return new Promise<Server>(async(resolve, reject) => {
       try {
         const router = await Router.getDefault();
-        return resolve(new Server(router));
+        const server = new Server(router);
+        return resolve(server);
       } catch (e) {
         return reject(e);
       }
