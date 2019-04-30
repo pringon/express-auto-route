@@ -15,7 +15,7 @@ describe('Should instantiate', () => {
     }]);
   });
 
-  test('Should get correct result from method', () => {
+  describe('Hello method should behave correctly', () => {
     const request = httpMocks.createRequest({
       method: 'GET',
       url: '/example/',
@@ -23,7 +23,12 @@ describe('Should instantiate', () => {
     const response = httpMocks.createResponse();
     const next = () => {};
     controller.hello(request, response, next);
-    const data = JSON.parse(response._getData());
-    expect(data).toEqual({ message: 'Hello world!' });
+    test('should get correct result', () => {
+      const data = JSON.parse(response._getData());
+      expect(data).toEqual({ message: 'Hello world!' });
+    });
+    test('should call end', () => {
+      expect(response._isEndCalled()).toBe(true);
+    });
   });
 });
