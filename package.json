@@ -8,6 +8,7 @@
     "start": "npm run build && node dist/index.js",
     "dev": "nodemon --config nodemon.json",
     "test": "jest",
+    "test:lint": "npm run test && npm run lint",
     "build": "tsc -p .",
     "lint": "tslint --project tsconfig.json src/{,**/}*.ts"
   },
