@@ -7,7 +7,7 @@ import express, {
   ErrorRequestHandler,
 } from 'express';
 import http from 'http';
-import { default as createError, HttpError } from 'http-errors';
+import HttpError from './errors/HttpError';
 
 import Router from './Router';
 
@@ -99,7 +99,7 @@ export default class Server {
   }
 
   private notFound(req: Request, res: Response, next: NextFunction): void {
-    return next(createError(404, 'Resource not found'));
+    return next(new HttpError(404, 'Resource not found'));
   }
 
   private errorHandler(
