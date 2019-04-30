@@ -30,13 +30,14 @@ methods.forEach((method) => {
 // @controller(path: optional, ...middleware: optional)
 export const controller = (...args: (string | Function)[]) => {
   const [controllerPath, controllerMiddlewares] = destruct(args);
+  const validatedPath = controllerPath.replace('/', '').length === 0 ? '' : controllerPath;
   return (target: any) => {
     const proto = target.prototype;
     proto.$routes = Object.getOwnPropertyNames(proto)
       .filter(prop => prop.indexOf(PRE) === 0)
       .map((prop) => {
         const { method, path, middlewares: actionMiddlewares } = proto[prop];
-        const url = `${controllerPath}${path}`;
+        const url = `${validatedPath}${path}`;
         const middlewares = controllerMiddlewares.concat(actionMiddlewares);
         const methodName = prop.substring(PRE.length);
         return { method, url, middlewares, methodName };

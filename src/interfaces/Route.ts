@@ -1,6 +1,6 @@
 export interface IRoute {
   method: string;
   url: string;
-  middlewares?: Function[];
+  middlewares: Function[];
   methodName: string;
 }
