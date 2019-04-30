@@ -6,7 +6,7 @@ abstract class Controller {
 
   public getRoutes(): IRoute[] {
     if (!this.$routes) {
-      throw new Error('Invalid controller. Did you use routing decorators?');
+      throw new RangeError('No routes defined. Did you use routing decorators?');
     }
     return this.$routes;
   }

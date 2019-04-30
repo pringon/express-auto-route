@@ -28,7 +28,7 @@ export default class Router {
 
   public route(app: Application): void {
     if (this.controllers.length <= 0) {
-      throw Error('No controller associated with this router.');
+      throw RangeError('No controller associated with this router.');
     }
     this.controllers.forEach((controller) => {
       // @ts-ignore
