@@ -14,7 +14,7 @@ class ControllerWithRoute extends Controller {
   }
 }
 
-describe('getRoutes on controller with no routes should raise error', () => {
+describe('getRoutes on controller with no routes should throw an error', () => {
   const controller = new EmptyController();
 
   test('should throw InvalidController error', () => {
