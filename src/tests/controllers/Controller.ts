@@ -20,7 +20,7 @@ describe('getRoutes on controller with no routes should raise error', () => {
   test('should throw InvalidController error', () => {
     expect(() => {
       controller.getRoutes();
-    }).toThrow('Invalid controller');
+    }).toThrow(RangeError);
   });
 });
 
