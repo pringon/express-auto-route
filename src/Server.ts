@@ -23,6 +23,7 @@ export default class Server {
   private app: Application;
   private server: http.Server;
   private router: Router;
+  private middleware: RequestHandler[];
   private port: number | string;
   private running: boolean;
 
@@ -30,8 +31,13 @@ export default class Server {
     this.app = express();
     this.server = http.createServer(this.app);
     this.router = Router.getEmptyRouter();
+    this.middleware = [];
     this.port = PORT || Server.PORT;
     this.running = false;
+  }
+
+  public use(middleware: RequestHandler): void {
+    this.middleware.push(middleware);
   }
 
   /**
@@ -85,6 +91,7 @@ export default class Server {
     notFoundCallback = this.notFound,
     errorHandler = this.errorHandler,
   }: IRouteOptions = {}): void {
+    this.app.use(this.middleware);
     this.router.route(this.app);
     this.app.use(notFoundCallback);
     this.app.use(errorHandler);
