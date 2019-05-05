@@ -36,8 +36,8 @@ export default class Server {
     this.running = false;
   }
 
-  public use(middleware: RequestHandler): void {
-    this.middleware.push(middleware);
+  public use(...middleware: RequestHandler[]): void {
+    this.middleware.push(...middleware);
   }
 
   /**
