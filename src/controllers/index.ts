@@ -36,7 +36,7 @@ const importModules = async (controllerFiles: string[]): Promise<any> => (
  */
 const filterControllers = (file: string): boolean => (
   (file.indexOf('.') !== 0) && (file !== basename)
-    && (file.slice(-14) === '.controller.ts')
+    && (file.slice(-14, -2) === '.controller.')
 );
 
 /**
