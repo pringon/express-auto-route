@@ -100,8 +100,10 @@ export default class Server {
   public start(): void {
     this.server.listen(this.port, () => {
       this.running = true;
-      // tslint:disable-next-line:no-console
-      console.log(`Server is listening on port ${this.port}.`);
+      if (config.get('NODE_ENV') === 'development') {
+        // tslint:disable-next-line:no-console
+        console.log(`Server is listening on port ${this.port}.`);
+      }
     });
   }
 
