@@ -1,0 +1,1616 @@
+{
+  "program": {
+    "fileInfos": {
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "c8665e66018917580e71792b91022bcaf53fb946fab4aaf8dfb0738ed564db88",
+        "signature": "c8665e66018917580e71792b91022bcaf53fb946fab4aaf8dfb0738ed564db88"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96",
+        "signature": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1",
+        "signature": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743",
+        "signature": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2018.d.ts": {
+        "version": "2edd3ddf436ef8e12df876dcae4ecd6a8748577944c477bf4b20d5596e0c9843",
+        "signature": "2edd3ddf436ef8e12df876dcae4ecd6a8748577944c477bf4b20d5596e0c9843"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "384f66a3422d80014c51de2682159bb26f1e35854029880ccd5f6d1f00e6a36d",
+        "signature": "384f66a3422d80014c51de2682159bb26f1e35854029880ccd5f6d1f00e6a36d"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0",
+        "signature": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3",
+        "signature": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "4d1f39313a169b8599b8817688f504b56ba8204c2ebafd03f66ff77ddb1899a4",
+        "signature": "4d1f39313a169b8599b8817688f504b56ba8204c2ebafd03f66ff77ddb1899a4"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "7c07d934680d0e33275a44d22fb11a4ff31d46c8c26a8d056828a478753f1efe",
+        "signature": "7c07d934680d0e33275a44d22fb11a4ff31d46c8c26a8d056828a478753f1efe"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe",
+        "signature": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976",
+        "signature": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230",
+        "signature": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303",
+        "signature": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0",
+        "signature": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "ff8ad203e83338289b0f5defc1a5b5c253fb7d251b464db497383f915a0df3f4",
+        "signature": "ff8ad203e83338289b0f5defc1a5b5c253fb7d251b464db497383f915a0df3f4"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f",
+        "signature": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c",
+        "signature": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6",
+        "signature": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46",
+        "signature": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+        "version": "42102aaeb1bfec213be1e9777466a6d551eeba8567fed18c0cdbca8c35e3c6e4",
+        "signature": "42102aaeb1bfec213be1e9777466a6d551eeba8567fed18c0cdbca8c35e3c6e4"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+        "version": "1b820b57379c726f94af50cd60053674af53ff9d079c1563cc70071e8b757dd0",
+        "signature": "1b820b57379c726f94af50cd60053674af53ff9d079c1563cc70071e8b757dd0"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+        "version": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62",
+        "signature": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+        "version": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8",
+        "signature": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+        "version": "f6e0c89daaf72eac38dfb1d5ef0972183f7f26a68da15bfe5bcb7cfccf0c7db8",
+        "signature": "f6e0c89daaf72eac38dfb1d5ef0972183f7f26a68da15bfe5bcb7cfccf0c7db8"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.esnext.bigint.d.ts": {
+        "version": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8",
+        "signature": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8"
+      },
+      "/home/pringon/Dev/projects/express-typescript/src/interfaces/Route.ts": {
+        "version": "1d693207fb16bae003bd7d7a66d29a01c45214498948ca25300cf3ae1c8a4bbe",
+        "signature": "f2915ecb6a7e534d7d8672370b5bcbd8092bb03d60e1185632b8075af10f906c"
+      },
+      "/home/pringon/Dev/projects/express-typescript/src/controllers/Controller.ts": {
+        "version": "5a72a7f3442e199ee2a8a453142ab06266731486d9bd5a72caea36c20224edb8",
+        "signature": "70e7e9cbd2ed26a4ab766fb8d1c2ae5f754c7f16fb3d85d19c4c9a5256c27cf9"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/globals.d.ts": {
+        "version": "3af134c0480536f901a30692d216bd29712a3869fe38a7be066ea1eef34a8561",
+        "signature": "3af134c0480536f901a30692d216bd29712a3869fe38a7be066ea1eef34a8561"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/assert.d.ts": {
+        "version": "58a52f282f1dad18179023804c1f3a7536bf875748a0a314abd43f60fd5b244f",
+        "signature": "58a52f282f1dad18179023804c1f3a7536bf875748a0a314abd43f60fd5b244f"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/async_hooks.d.ts": {
+        "version": "138476cfdccbb9e2c7e06602bc216af843a56c4f3469a79106bc660ba94bd66a",
+        "signature": "138476cfdccbb9e2c7e06602bc216af843a56c4f3469a79106bc660ba94bd66a"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/buffer.d.ts": {
+        "version": "fe892fea1e75a442fffb4a604d7eeb451e858787a9f2f01c4e83bf12a3b5048d",
+        "signature": "fe892fea1e75a442fffb4a604d7eeb451e858787a9f2f01c4e83bf12a3b5048d"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/child_process.d.ts": {
+        "version": "c5a3c14cb11afb48d405562e6843145caa67c60be9738f408cd7977ce30a0b00",
+        "signature": "c5a3c14cb11afb48d405562e6843145caa67c60be9738f408cd7977ce30a0b00"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/cluster.d.ts": {
+        "version": "ce629710e5e58724902b753212e97861fd73e2aa09f5d88cb6d55dc763cf8c8a",
+        "signature": "ce629710e5e58724902b753212e97861fd73e2aa09f5d88cb6d55dc763cf8c8a"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/console.d.ts": {
+        "version": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d",
+        "signature": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/constants.d.ts": {
+        "version": "b952021e804dcd9cb5e5552e1ec8bf9f479b61e20da5641e2a542fe77db9a598",
+        "signature": "b952021e804dcd9cb5e5552e1ec8bf9f479b61e20da5641e2a542fe77db9a598"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/crypto.d.ts": {
+        "version": "a15466cfe77b4f8bcd936634d3d2828ee340819c3f136d31f87d6084e86994d0",
+        "signature": "a15466cfe77b4f8bcd936634d3d2828ee340819c3f136d31f87d6084e86994d0"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/dgram.d.ts": {
+        "version": "b6c6861bccf209a98eeddb99bdb7bd987fb29fc52130d5d9fd2f79d3607a0a7a",
+        "signature": "b6c6861bccf209a98eeddb99bdb7bd987fb29fc52130d5d9fd2f79d3607a0a7a"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/dns.d.ts": {
+        "version": "896cd7d58e9d832392a6e374a8f8b64f142089b4d2678a2c90fd8d1d49128677",
+        "signature": "896cd7d58e9d832392a6e374a8f8b64f142089b4d2678a2c90fd8d1d49128677"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/domain.d.ts": {
+        "version": "d5b7c8819ce1bd31a45f7675309e145ec28e3aa1b60a8e0637fd0e8916255baa",
+        "signature": "d5b7c8819ce1bd31a45f7675309e145ec28e3aa1b60a8e0637fd0e8916255baa"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts": {
+        "version": "cff7f1ff41519a28adfedb85b9d91325e13d7993bebcfd0dd9ce30c3ed1240bb",
+        "signature": "cff7f1ff41519a28adfedb85b9d91325e13d7993bebcfd0dd9ce30c3ed1240bb"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/fs.d.ts": {
+        "version": "10c5b29dccf29ea7f9aea324ab09b0e2237d6506bd8e28538963b28855819616",
+        "signature": "10c5b29dccf29ea7f9aea324ab09b0e2237d6506bd8e28538963b28855819616"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/http.d.ts": {
+        "version": "cc4cd9d8af7f5689b5df3c91d0fc287fafbd89e6e305183da28a6877a8aa08a8",
+        "signature": "cc4cd9d8af7f5689b5df3c91d0fc287fafbd89e6e305183da28a6877a8aa08a8"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/http2.d.ts": {
+        "version": "28fdca6c7a3d5dd62c738461051ef345b50d167efab39dceb2fcc9a079db1b07",
+        "signature": "28fdca6c7a3d5dd62c738461051ef345b50d167efab39dceb2fcc9a079db1b07"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/https.d.ts": {
+        "version": "dacbe08610729f6343ea9880ea8e737c6d7a6efa4a318d8f6acaf85db4aceed6",
+        "signature": "dacbe08610729f6343ea9880ea8e737c6d7a6efa4a318d8f6acaf85db4aceed6"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/inspector.d.ts": {
+        "version": "7f71142177d3c98370b31751e3d320c9743ed28eee215acb88d8e0d2a31e321e",
+        "signature": "7f71142177d3c98370b31751e3d320c9743ed28eee215acb88d8e0d2a31e321e"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/module.d.ts": {
+        "version": "03394bf8deb8781b490ae9266a843fbdf00647947d79e25fcbf1d89a9e9c8a66",
+        "signature": "03394bf8deb8781b490ae9266a843fbdf00647947d79e25fcbf1d89a9e9c8a66"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/net.d.ts": {
+        "version": "cc5fac2b9e45a6670b96fd32cb42c97e0d4a7b2ee12c87963c6fe0f55fa84f50",
+        "signature": "cc5fac2b9e45a6670b96fd32cb42c97e0d4a7b2ee12c87963c6fe0f55fa84f50"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/os.d.ts": {
+        "version": "1a6016bd905855b2b45881e9edbd7ab8c7175f8bcbb711ff06989c4bcdc75486",
+        "signature": "1a6016bd905855b2b45881e9edbd7ab8c7175f8bcbb711ff06989c4bcdc75486"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/path.d.ts": {
+        "version": "5fb30076f0e0e5744db8993648bfb67aadd895f439edad5cce039127a87a8a36",
+        "signature": "5fb30076f0e0e5744db8993648bfb67aadd895f439edad5cce039127a87a8a36"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/perf_hooks.d.ts": {
+        "version": "27ef4001526ee9d8afa57687a60bb3b59c52b32d29db0a2260094ab64726164f",
+        "signature": "27ef4001526ee9d8afa57687a60bb3b59c52b32d29db0a2260094ab64726164f"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/process.d.ts": {
+        "version": "3a8848a9c307429b861402cc69bc472ffe0c05b86474fc158723169161e16389",
+        "signature": "3a8848a9c307429b861402cc69bc472ffe0c05b86474fc158723169161e16389"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/punycode.d.ts": {
+        "version": "30ec6f9c683b988c3cfaa0c4690692049c4e7ed7dc6f6e94f56194c06b86f5e1",
+        "signature": "30ec6f9c683b988c3cfaa0c4690692049c4e7ed7dc6f6e94f56194c06b86f5e1"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/querystring.d.ts": {
+        "version": "b610b39b7d42b8e8359875ce77c3149d657bbaa6c9058beb655af805efb581b3",
+        "signature": "b610b39b7d42b8e8359875ce77c3149d657bbaa6c9058beb655af805efb581b3"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/readline.d.ts": {
+        "version": "94cf93922adcc9cb4acf11d8d71641af728de919a50ae55d8e83159afea1a42c",
+        "signature": "94cf93922adcc9cb4acf11d8d71641af728de919a50ae55d8e83159afea1a42c"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/repl.d.ts": {
+        "version": "65dbe15ed8a8ed5d4707a63868178dc38111cfc06de28a2e50713ca017a9c157",
+        "signature": "65dbe15ed8a8ed5d4707a63868178dc38111cfc06de28a2e50713ca017a9c157"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts": {
+        "version": "15087156b728a1bdf46de0e1299f904c6a658af37f80851f6fe76fb21bb99b65",
+        "signature": "15087156b728a1bdf46de0e1299f904c6a658af37f80851f6fe76fb21bb99b65"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/string_decoder.d.ts": {
+        "version": "17e157df6125098a1a34eb4d201ee4ac03bbe97e471ab5627bb2c40fce555948",
+        "signature": "17e157df6125098a1a34eb4d201ee4ac03bbe97e471ab5627bb2c40fce555948"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/timers.d.ts": {
+        "version": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9",
+        "signature": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/tls.d.ts": {
+        "version": "8fd6756e8a6fac64089e19e4fbe822bcfafa62f79b237172288eaa1379e84083",
+        "signature": "8fd6756e8a6fac64089e19e4fbe822bcfafa62f79b237172288eaa1379e84083"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/trace_events.d.ts": {
+        "version": "978aecd2e6bc2ac094e9a35eda98ff8586713857b3655e7c98ca5ed8f7d50662",
+        "signature": "978aecd2e6bc2ac094e9a35eda98ff8586713857b3655e7c98ca5ed8f7d50662"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/tty.d.ts": {
+        "version": "0fd8dac24f12d9fd1fcc275200dd1b6771072f20331a07b18f7dbcbe20f7d3f4",
+        "signature": "0fd8dac24f12d9fd1fcc275200dd1b6771072f20331a07b18f7dbcbe20f7d3f4"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/url.d.ts": {
+        "version": "1e3da92862604b1f7a32265169f9aa712c4567742d42597704e04ae3e07019e7",
+        "signature": "1e3da92862604b1f7a32265169f9aa712c4567742d42597704e04ae3e07019e7"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts": {
+        "version": "20e55abae3dd750a85fda7c4d140670ada679c3d5b640de5e4f3eaafcee18a0d",
+        "signature": "20e55abae3dd750a85fda7c4d140670ada679c3d5b640de5e4f3eaafcee18a0d"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/v8.d.ts": {
+        "version": "6ad2dd29dbf3aea031062298e9978d4b2a1fadd0997eb9d8caaf95aaa89e7033",
+        "signature": "6ad2dd29dbf3aea031062298e9978d4b2a1fadd0997eb9d8caaf95aaa89e7033"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/vm.d.ts": {
+        "version": "f98df5ec124f441b465332271d0b083aeec815cd3c92d9249b9739e6318477a9",
+        "signature": "f98df5ec124f441b465332271d0b083aeec815cd3c92d9249b9739e6318477a9"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/worker_threads.d.ts": {
+        "version": "16de20ae20cd1d948409a56b55832f3d416c66c8cb44bb8475e1e9db14d8e402",
+        "signature": "16de20ae20cd1d948409a56b55832f3d416c66c8cb44bb8475e1e9db14d8e402"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/zlib.d.ts": {
+        "version": "f91189e04264b0e41ee96ff96661c3871e739b90156df2f2288da7a81019dcd9",
+        "signature": "f91189e04264b0e41ee96ff96661c3871e739b90156df2f2288da7a81019dcd9"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/base.d.ts": {
+        "version": "6622f76993bdfeaacb947ba7c4cf26f2e5c5194194d02d792c3cba4174cd8fce",
+        "signature": "6622f76993bdfeaacb947ba7c4cf26f2e5c5194194d02d792c3cba4174cd8fce"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts": {
+        "version": "4f54f0a9dd3b644c99ec32b32f8804d5978bc854799b228ae9c467bf3c84c64c",
+        "signature": "4f54f0a9dd3b644c99ec32b32f8804d5978bc854799b228ae9c467bf3c84c64c"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/globals.d.ts": {
+        "version": "ce6b191c382ee19f23678b8c364484627bcf424e8f408357a2f5530fb8d52a45",
+        "signature": "ce6b191c382ee19f23678b8c364484627bcf424e8f408357a2f5530fb8d52a45"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/index.d.ts": {
+        "version": "765fc34423b93c2ab763670d8d11d99e5f47387c13c161d6f1640dd6d91b7d1c",
+        "signature": "765fc34423b93c2ab763670d8d11d99e5f47387c13c161d6f1640dd6d91b7d1c"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/range-parser/index.d.ts": {
+        "version": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b",
+        "signature": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/express-serve-static-core/index.d.ts": {
+        "version": "3537fa0217037a707d7e7d61c86d3fa2449945b3ed3a48d13ebed1585f414168",
+        "signature": "3537fa0217037a707d7e7d61c86d3fa2449945b3ed3a48d13ebed1585f414168"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/mime/index.d.ts": {
+        "version": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6",
+        "signature": "be27a64e821a3e5af838650e4aa25805c60f057d0c37a9762c378d19d364b3e6"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/serve-static/index.d.ts": {
+        "version": "b27dd918d8c3f10270cadea529c69e3a9b37ce59db0852945a39068cc5c10fff",
+        "signature": "b27dd918d8c3f10270cadea529c69e3a9b37ce59db0852945a39068cc5c10fff"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/connect/index.d.ts": {
+        "version": "c3be42b83b5f57ae2f65280fa395f6d31f61304ac1a29b7b406b6a0e71da8c82",
+        "signature": "c3be42b83b5f57ae2f65280fa395f6d31f61304ac1a29b7b406b6a0e71da8c82"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/body-parser/index.d.ts": {
+        "version": "1b7919dbb6b43ff272f38f6f6522fb9f4e9e854356b2932a36aa4674f4a2fcf2",
+        "signature": "1b7919dbb6b43ff272f38f6f6522fb9f4e9e854356b2932a36aa4674f4a2fcf2"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/express/index.d.ts": {
+        "version": "434d7d3188d85bd46c64dcc8268422ffdfdd19fdbc98ec01446d650414fcaa0b",
+        "signature": "434d7d3188d85bd46c64dcc8268422ffdfdd19fdbc98ec01446d650414fcaa0b"
+      },
+      "/home/pringon/Dev/projects/express-typescript/src/controllers/index.ts": {
+        "version": "490e40ee3e1aa8c603bd6c75d8af6e03415177ba9bf12da808774a5398d596ce",
+        "signature": "4b5e7b30bddaed5df32dc3b27595f06d7b74eee4c2c7e51cc0403f2db81b1821"
+      },
+      "/home/pringon/Dev/projects/express-typescript/src/Router.ts": {
+        "version": "6539615374a65319ebae6bc9eb9d924eba05a79b37396aab1c5479f954b335b9",
+        "signature": "3568dd77274e92f7f98c13e141c1b2358a55de57d2e6ba6a785bcfc0ced97dda"
+      },
+      "/home/pringon/Dev/projects/express-typescript/src/errors/HttpError.ts": {
+        "version": "f251c641fcd13128d34953772c02cedada8441901bf02e2b6a6776223d974178",
+        "signature": "80a88898bddb94f5924a306fe01abf4d69a76f135fa76404e8b947f58203045e"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/nconf/index.d.ts": {
+        "version": "c5bf2a8d103c2f35af14b970c34547157c62187639315eb743a83795f69d2835",
+        "signature": "c5bf2a8d103c2f35af14b970c34547157c62187639315eb743a83795f69d2835"
+      },
+      "/home/pringon/Dev/projects/express-typescript/src/config.ts": {
+        "version": "5d6e37c25455e3f4f0f50a8579a2d6610f7aa4a10154a8ddf22bb2c266e11b09",
+        "signature": "aebdae4df566a98dded78bc25e76e7dc7980fbb80c19fe8a7ff17ce85a634e1c"
+      },
+      "/home/pringon/Dev/projects/express-typescript/src/Server.ts": {
+        "version": "d2d88db5aaa98625ef1fd26b8fe83c7ef70a8c4cdc811c8a6f4a13b30aaadedf",
+        "signature": "82d3281f05c89fe18e8c1e6511f4caabb07f3dd2b9308a1645bfdba67d61a63e"
+      },
+      "/home/pringon/Dev/projects/express-typescript/src/index.ts": {
+        "version": "9a392bec5f470702cd2e0b92388f36140a93b20fab2ff52110da03c0241b4f1e",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+      },
+      "/home/pringon/Dev/projects/express-typescript/src/decorators/routing.ts": {
+        "version": "a37ea77b335604150f73b8e027dfef2f69d602a74d713ce47aa8086c8a056322",
+        "signature": "7c2eb1590f5b082c3303fbdaa220e48939fc18823b58561a00149189337e6e45"
+      },
+      "/home/pringon/Dev/projects/express-typescript/src/controllers/Example.controller.ts": {
+        "version": "7c3d87a237f8c21b9b8470ac8d0bda0b078c196eb5d109f5379981c465edd4d4",
+        "signature": "d4e10250b06fb1c8500db49584193e60785ea87fb6492149d45d2098a277c223"
+      },
+      "/home/pringon/Dev/projects/express-typescript/src/tests/controllers/Controller.ts": {
+        "version": "cd3fda0e5a89fd4661ddc4a6981d1a1b7e7a7eba728e7822105476af704a6676",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/node-mocks-http/lib/index.d.ts": {
+        "version": "72ebfedc0ea22c9c883c80d4ce939a735db6d299167c9ee8d06cab7fc0790d0d",
+        "signature": "72ebfedc0ea22c9c883c80d4ce939a735db6d299167c9ee8d06cab7fc0790d0d"
+      },
+      "/home/pringon/Dev/projects/express-typescript/src/tests/controllers/Example.controller.ts": {
+        "version": "fe937c69dac2c6a10890a3f0355924832cbdb5b261afcd51e702071a964bcd8d",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@babel/types/lib/index.d.ts": {
+        "version": "9eac0dd4de5669db2b8321dffa400b997f7b21181118efc7a2c1743d93d4be57",
+        "signature": "9eac0dd4de5669db2b8321dffa400b997f7b21181118efc7a2c1743d93d4be57"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/babel__generator/index.d.ts": {
+        "version": "19fb2161edf60fbe73ee3650c1cee889df0525ed852eff2d5fa6e5480c132ae3",
+        "signature": "19fb2161edf60fbe73ee3650c1cee889df0525ed852eff2d5fa6e5480c132ae3"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/babel__traverse/index.d.ts": {
+        "version": "30b805fe6d4272d147fea35fd859bc5f3e13b7c9d762bd35948fe842919452a5",
+        "signature": "30b805fe6d4272d147fea35fd859bc5f3e13b7c9d762bd35948fe842919452a5"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@babel/parser/typings/babel-parser.d.ts": {
+        "version": "67fb81fcd13edc5410665fa72892dd0878654b54946e8b0f10af5adc234bfe8f",
+        "signature": "67fb81fcd13edc5410665fa72892dd0878654b54946e8b0f10af5adc234bfe8f"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/babel__template/index.d.ts": {
+        "version": "3e0a34f7207431d967dc32d593d1cda0c23975e9484bc8895b39d96ffca4a0d8",
+        "signature": "3e0a34f7207431d967dc32d593d1cda0c23975e9484bc8895b39d96ffca4a0d8"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/babel__core/index.d.ts": {
+        "version": "80e6d098a9998f0523ef6fc423449017dab64c61610c770563617d59bf2902ed",
+        "signature": "80e6d098a9998f0523ef6fc423449017dab64c61610c770563617d59bf2902ed"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/istanbul-lib-coverage/index.d.ts": {
+        "version": "2e91ae1a0304062735f5d6f2e0b90d5f5bc11d73291d0a3783c79fd5ad9ac4c7",
+        "signature": "2e91ae1a0304062735f5d6f2e0b90d5f5bc11d73291d0a3783c79fd5ad9ac4c7"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/jest-diff/index.d.ts": {
+        "version": "6ecb326999da47034eff85653423767152858fbb7acf0433f7603c9abf1e3f06",
+        "signature": "6ecb326999da47034eff85653423767152858fbb7acf0433f7603c9abf1e3f06"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/jest-diff/build/types.d.ts": {
+        "version": "71ba0678a3c647f5c0706ae975c031ace0d464e60f9ce56eaa7f1678d065aab7",
+        "signature": "71ba0678a3c647f5c0706ae975c031ace0d464e60f9ce56eaa7f1678d065aab7"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/jest-diff/build/index.d.ts": {
+        "version": "b2c5ded6320c45c5d3e1c481c5d2808adf24dd1a59ffc944b72a418e95da5b17",
+        "signature": "b2c5ded6320c45c5d3e1c481c5d2808adf24dd1a59ffc944b72a418e95da5b17"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/jest/index.d.ts": {
+        "version": "a6ea3b29104efd7a3dd497d3496306f8350eb2ab05b7fa1b25fe82f9391bf879",
+        "signature": "a6ea3b29104efd7a3dd497d3496306f8350eb2ab05b7fa1b25fe82f9391bf879"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/stack-utils/index.d.ts": {
+        "version": "41422586881bcd739b4e62d9b91cd29909f8572aa3e3cdf316b7c50f14708d49",
+        "signature": "41422586881bcd739b4e62d9b91cd29909f8572aa3e3cdf316b7c50f14708d49"
+      },
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/yargs/index.d.ts": {
+        "version": "8f3237f03af87871a18d49ff52dec94d71eabecca464d5f2a81e34b55fb60bb5",
+        "signature": "8f3237f03af87871a18d49ff52dec94d71eabecca464d5f2a81e34b55fb60bb5"
+      }
+    },
+    "options": {
+      "target": 1,
+      "module": 1,
+      "lib": [
+        "lib.es2015.d.ts"
+      ],
+      "outDir": "/home/pringon/Dev/projects/express-typescript/dist",
+      "rootDir": "/home/pringon/Dev/projects/express-typescript/src",
+      "strict": true,
+      "esModuleInterop": true,
+      "experimentalDecorators": true,
+      "resolveJsonModule": true,
+      "incremental": true,
+      "project": ".",
+      "configFilePath": "/home/pringon/Dev/projects/express-typescript/tsconfig.json"
+    },
+    "referencedMap": {
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es5.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2016.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2017.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2018.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/src/interfaces/Route.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/src/controllers/Controller.ts": [
+        "/home/pringon/Dev/projects/express-typescript/src/interfaces/Route.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/globals.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/assert.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/async_hooks.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/buffer.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/child_process.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/net.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/cluster.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/child_process.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/net.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/console.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/constants.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/crypto.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/dgram.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/net.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/dns.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/dns.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/domain.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/fs.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/url.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/http.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/url.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/net.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/http2.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/fs.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/net.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/tls.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/url.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/http.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/https.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/tls.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/http.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/url.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/inspector.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/module.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/net.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/dns.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/os.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/path.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/perf_hooks.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/async_hooks.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/process.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/punycode.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/querystring.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/readline.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/repl.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/readline.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/vm.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/string_decoder.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/timers.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/tls.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/crypto.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/dns.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/net.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/trace_events.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/tty.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/net.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/url.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/querystring.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/v8.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/vm.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/worker_threads.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/vm.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/zlib.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/base.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/globals.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/assert.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/async_hooks.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/buffer.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/child_process.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/cluster.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/console.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/constants.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/crypto.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/dgram.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/dns.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/domain.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/fs.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/http.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/http2.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/https.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/inspector.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/module.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/net.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/os.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/path.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/perf_hooks.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/process.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/punycode.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/querystring.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/readline.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/repl.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/string_decoder.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/timers.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/tls.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/trace_events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/tty.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/url.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/v8.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/vm.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/worker_threads.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/zlib.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/globals.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/globals.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/base.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/globals.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/range-parser/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/express-serve-static-core/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/http.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/range-parser/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/mime/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/serve-static/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/express-serve-static-core/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/mime/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/connect/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/http.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/body-parser/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/connect/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/http.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/express/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/body-parser/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/serve-static/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/express-serve-static-core/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/src/controllers/index.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/fs.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/path.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/src/controllers/Controller.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/src/Router.ts": [
+        "/home/pringon/Dev/projects/express-typescript/src/controllers/Controller.ts",
+        "/home/pringon/Dev/projects/express-typescript/src/interfaces/Route.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/express/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/src/controllers/index.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/src/errors/HttpError.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/nconf/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/src/config.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/nconf/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/path.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/src/Server.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/express/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/http.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/src/errors/HttpError.ts",
+        "/home/pringon/Dev/projects/express-typescript/src/Router.ts",
+        "/home/pringon/Dev/projects/express-typescript/src/config.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/src/index.ts": [
+        "/home/pringon/Dev/projects/express-typescript/src/Server.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/body-parser/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/src/decorators/routing.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/src/controllers/Example.controller.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/express/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/src/controllers/Controller.ts",
+        "/home/pringon/Dev/projects/express-typescript/src/decorators/routing.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/src/tests/controllers/Controller.ts": [
+        "/home/pringon/Dev/projects/express-typescript/src/decorators/routing.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/express/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/src/controllers/Controller.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/node-mocks-http/lib/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/express/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/src/tests/controllers/Example.controller.ts": [
+        "/home/pringon/Dev/projects/express-typescript/src/controllers/Example.controller.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/node-mocks-http/lib/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@babel/types/lib/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/babel__generator/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@babel/types/lib/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/babel__traverse/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@babel/types/lib/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@babel/parser/typings/babel-parser.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@babel/types/lib/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/babel__template/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@babel/types/lib/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/babel__core/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/babel__generator/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/babel__traverse/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/babel__template/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@babel/types/lib/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/istanbul-lib-coverage/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/jest-diff/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/jest-diff/build/types.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/jest-diff/build/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/jest-diff/build/types.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/jest/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/jest-diff/build/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/jest-diff/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/stack-utils/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/yargs/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es5.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2016.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2017.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2018.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/src/Router.ts": [
+        "/home/pringon/Dev/projects/express-typescript/src/controllers/Controller.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/express/index.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/src/Server.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/express/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/http.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/src/Router.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/src/controllers/Controller.ts": [
+        "/home/pringon/Dev/projects/express-typescript/src/interfaces/Route.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/src/controllers/Example.controller.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/express/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/src/controllers/Controller.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/src/controllers/index.ts": [
+        "/home/pringon/Dev/projects/express-typescript/src/controllers/Controller.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/globals.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/assert.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/base.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/globals.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/assert.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/async_hooks.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/buffer.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/child_process.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/cluster.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/console.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/constants.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/crypto.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/dgram.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/dns.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/domain.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/fs.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/http.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/http2.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/https.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/inspector.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/module.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/net.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/os.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/path.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/perf_hooks.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/process.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/punycode.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/querystring.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/readline.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/repl.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/string_decoder.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/timers.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/tls.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/trace_events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/tty.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/url.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/v8.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/vm.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/worker_threads.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/zlib.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/base.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/globals.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/body-parser/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/connect/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/http.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/express/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/body-parser/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/serve-static/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/express-serve-static-core/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/node-mocks-http/lib/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/express/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/connect/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/http.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/express-serve-static-core/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/http.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/range-parser/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/serve-static/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/express-serve-static-core/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/mime/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/async_hooks.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/perf_hooks.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/async_hooks.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/buffer.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/child_process.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/net.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/cluster.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/child_process.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/net.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/console.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/constants.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/crypto.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/tls.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/crypto.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/dns.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/net.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/https.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/tls.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/http.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/url.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/http2.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/fs.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/net.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/tls.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/url.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/http.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/dgram.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/net.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/dns.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/dns.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/net.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/dns.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/tty.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/net.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/http.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/url.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/net.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/domain.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/worker_threads.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/vm.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/zlib.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/v8.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/readline.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/repl.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/readline.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/vm.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/fs.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/url.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/inspector.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/module.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/os.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/path.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/src/config.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/nconf/index.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/process.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/punycode.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/querystring.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/url.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/querystring.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/string_decoder.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/timers.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/trace_events.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/yargs/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/stack-utils/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/jest/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/jest-diff/build/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/jest-diff/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/jest-diff/build/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/jest-diff/build/types.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/jest-diff/build/types.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/jest-diff/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/istanbul-lib-coverage/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/babel__core/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/babel__generator/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/babel__traverse/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/babel__template/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@babel/types/lib/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/babel__template/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@babel/types/lib/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@babel/parser/typings/babel-parser.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@babel/types/lib/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/babel__traverse/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@babel/types/lib/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/babel__generator/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@babel/types/lib/index.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@babel/types/lib/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/nconf/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/mime/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/range-parser/index.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/globals.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/globals.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts"
+      ],
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/vm.d.ts": [
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+        "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es5.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2016.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2017.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2018.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/typescript/lib/lib.esnext.bigint.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/src/interfaces/Route.ts",
+      "/home/pringon/Dev/projects/express-typescript/src/controllers/Controller.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/globals.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/assert.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/async_hooks.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/buffer.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/child_process.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/cluster.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/console.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/constants.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/crypto.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/dgram.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/dns.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/domain.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/events.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/fs.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/http.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/http2.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/https.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/inspector.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/module.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/net.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/os.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/path.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/perf_hooks.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/process.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/punycode.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/querystring.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/readline.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/repl.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/stream.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/string_decoder.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/timers.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/tls.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/trace_events.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/tty.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/url.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/util.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/v8.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/vm.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/worker_threads.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/zlib.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/base.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/util.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/globals.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/node/ts3.2/index.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/range-parser/index.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/express-serve-static-core/index.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/mime/index.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/serve-static/index.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/connect/index.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/body-parser/index.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/express/index.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/src/controllers/index.ts",
+      "/home/pringon/Dev/projects/express-typescript/src/Router.ts",
+      "/home/pringon/Dev/projects/express-typescript/src/errors/HttpError.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/nconf/index.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/src/config.ts",
+      "/home/pringon/Dev/projects/express-typescript/src/Server.ts",
+      "/home/pringon/Dev/projects/express-typescript/src/index.ts",
+      "/home/pringon/Dev/projects/express-typescript/src/decorators/routing.ts",
+      "/home/pringon/Dev/projects/express-typescript/src/controllers/Example.controller.ts",
+      "/home/pringon/Dev/projects/express-typescript/src/tests/controllers/Controller.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/node-mocks-http/lib/index.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/src/tests/controllers/Example.controller.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@babel/types/lib/index.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/babel__generator/index.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/babel__traverse/index.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@babel/parser/typings/babel-parser.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/babel__template/index.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/babel__core/index.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/istanbul-lib-coverage/index.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/jest-diff/index.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/jest-diff/build/types.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/jest-diff/build/index.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/jest/index.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/stack-utils/index.d.ts",
+      "/home/pringon/Dev/projects/express-typescript/node_modules/@types/yargs/index.d.ts"
+    ]
+  },
+  "version": "3.4.5"
+}
