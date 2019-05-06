@@ -7,6 +7,7 @@ import express, {
   ErrorRequestHandler,
 } from 'express';
 import http from 'http';
+
 import HttpError from './errors/HttpError';
 
 import Router from './Router';
@@ -18,12 +19,22 @@ interface IRouteOptions {
   errorHandler?: ErrorRequestHandler;
 }
 
+export enum LoggerTypes { Request, Error }
+
+type Logger = RequestHandler | ErrorRequestHandler;
+
+interface ILogger {
+  handler: Logger;
+  type: LoggerTypes;
+}
+
 export default class Server {
   public static readonly PORT: number = 3000;
   private app: Application;
   private server: http.Server;
   private router: Router;
   private middleware: RequestHandler[];
+  private loggers: ILogger[];
   private port: number | string;
   private running: boolean;
 
@@ -32,12 +43,26 @@ export default class Server {
     this.server = http.createServer(this.app);
     this.router = Router.getEmptyRouter();
     this.middleware = [];
+    this.loggers = [];
     this.port = config.get('PORT') || Server.PORT;
     this.running = false;
   }
 
   public use(...middleware: RequestHandler[]): void {
     this.middleware.push(...middleware);
+  }
+
+  private getLoggers(type: LoggerTypes): Logger[] {
+    return this.loggers
+      .filter(logger => logger.type === type)
+      .map(logger => logger.handler);
+  }
+
+  public setLogger(handler: Logger, type: LoggerTypes) {
+    this.loggers.push({
+      handler,
+      type,
+    });
   }
 
   /**
@@ -54,6 +79,20 @@ export default class Server {
    */
   public getServer(): http.Server {
     return this.server;
+  }
+
+  public setRouter(router: Router): void {
+    if (this.running) {
+      throw Error('Cannot change router after application has started');
+    }
+    this.router = router;
+  }
+
+  public setPort(port: number | string): void {
+    if (this.running) {
+      throw Error('Cannot change port after application has started.');
+    }
+    this.port = port;
   }
 
   /**
@@ -73,26 +112,20 @@ export default class Server {
     });
   }
 
-  public setPort(port: number | string): void {
-    if (this.running) {
-      throw Error('Cannot change port after application has started.');
-    }
-    this.port = port;
-  }
-
-  public setRouter(router: Router): void {
-    if (this.running) {
-      throw Error('Cannot change router after application has started');
-    }
-    this.router = router;
-  }
-
   public route({
     notFoundCallback = this.notFound,
     errorHandler = this.errorHandler,
   }: IRouteOptions = {}): void {
+    // Use request loggers.
+    const requestLoggers = this.getLoggers(LoggerTypes.Request);
+    this.app.use(requestLoggers);
+    // Use middleware.
     this.app.use(this.middleware);
+    // Route endpoints.
     this.router.route(this.app);
+    // Use error loggers.
+    const errorLoggers = this.getLoggers(LoggerTypes.Error);
+    this.app.use(errorLoggers);
     this.app.use(notFoundCallback);
     this.app.use(errorHandler);
   }
