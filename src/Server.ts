@@ -11,7 +11,7 @@ import HttpError from './errors/HttpError';
 
 import Router from './Router';
 
-import { PORT } from './config';
+import config from './config';
 
 interface IRouteOptions {
   notFoundCallback?: RequestHandler;
@@ -30,7 +30,7 @@ export default class Server {
     this.app = express();
     this.server = http.createServer(this.app);
     this.router = Router.getEmptyRouter();
-    this.port = PORT || Server.PORT;
+    this.port = config.get('PORT') || Server.PORT;
     this.running = false;
   }
 
