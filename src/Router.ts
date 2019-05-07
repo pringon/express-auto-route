@@ -1,12 +1,12 @@
-import Controller from './controllers/Controller';
 import { IRoute } from './interfaces/Route';
 import { Application } from 'express';
 import { getControllers } from './controllers';
+import { ControllerClass } from './controllers/Controller';
 
 export default class Router {
-  private controllers: Controller[];
+  private controllers: ControllerClass[];
 
-  constructor(controllers: Controller[]) {
+  constructor(controllers: ControllerClass[]) {
     this.controllers = controllers;
   }
 

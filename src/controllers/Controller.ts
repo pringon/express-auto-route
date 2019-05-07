@@ -12,4 +12,5 @@ abstract class Controller {
   }
 }
 
+export type ControllerClass = typeof Controller;
 export default Controller;

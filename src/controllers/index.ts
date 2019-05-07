@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { promisify } from 'util';
-import Controller from './Controller';
+import { ControllerClass } from './Controller';
 
 const basename = path.basename(__filename);
 
@@ -41,10 +41,10 @@ const filterControllers = (file: string): boolean => (
 
 /**
  * Asynchronously returns all controllers in src/controllers.
- * @returns {Promise<Controller[]>} promise that resolves to array of controllers.
+ * @returns {Promise<ControllerClass[]>} promise that resolves to array of controllers.
  */
-export const getControllers = (): Promise<Controller[]> => {
-  return new Promise<Controller[]>(async (resolve, reject) => {
+export const getControllers = (): Promise<ControllerClass[]> => {
+  return new Promise<ControllerClass[]>(async (resolve, reject) => {
     try {
       // Load controller files.
       const controllerFiles = (await readDir(__dirname))
