@@ -14,10 +14,10 @@ jobs:
       - run: 
         name: Merge with master 
         command: |
-        git config user.name "dummy"
-        git config user.email "dumy@example.org"
-        git fetch origin master
-        git merge --squash origin/master
+          git config user.name "dummy"
+          git config user.email "dumy@example.org"
+          git fetch origin master
+          git merge --squash origin/master
       - restore_cache:
           keys:
             - npm-modules-{{ .Branch }}-{{ checksum "package-lock.json" }}
