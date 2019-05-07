@@ -1,43 +1,35 @@
-# Javascript Node CircleCI 2.0 configuration file
-#
-# Check https://circleci.com/docs/2.0/language-javascript/ for more details
-#
 version: 2
+workflows:
+  version: 2
+  test:
+    jobs:
+      - test
 jobs:
-  build:
+  test:
     docker:
-      # specify the version you desire here
-      - image: circleci/node:10.15.1
-
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/mongo:3.4.4
-
-    working_directory: ~/repo
+      # Use latest LTS version.
+      - image: circleci/node:10.15.3
 
     steps:
       - checkout
-
-      # Download and cache dependencies
+      - run:
+        name: 'Merge with master'
+        command: |
+          git config user.name "dummy"
+          git config user.email "dumy@example.org"
+          git fetch origin master
+          git merge --squash origin/master
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "package.json" }}
-            # fallback to using the latest cache if no exact match is found
-            - v1-dependencies-
-
+            - npm-modules-{{ .Branch }}-{{ checksum "package-lock.json" }}
+            - npm-modules-{{ .Branch }}-
+            - npm-modules-
       - run: npm install
-
       # Fix error with installing @types.
       - run: rm -rf node_modules/@types/babel__core/ node_modules/@types/babel__template/
-
+      - run: npm run lint
+      - run: npm run test
       - save_cache:
           paths:
             - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
-
-      # Run linter.
-      - run: npm run lint
-
-      # Run tests.
-      - run: npm run test
+          key: npm-modules-{{ .Branch }}-{{ checksum "package-lock.json" }}
