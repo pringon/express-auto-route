@@ -9,16 +9,13 @@ jobs:
     docker:
       # Use latest LTS version.
       - image: circleci/node:10.15.3
-
     steps:
       - checkout
-      - run:
-        name: Merge with master
-        command: |
-          git config user.name "dummy"
-          git config user.email "dumy@example.org"
-          git fetch origin master
-          git merge --squash origin/master
+      - run: |
+        git config user.name "dummy"
+        git config user.email "dumy@example.org"
+        git fetch origin master
+        git merge --squash origin/master
       - restore_cache:
           keys:
             - npm-modules-{{ .Branch }}-{{ checksum "package-lock.json" }}
