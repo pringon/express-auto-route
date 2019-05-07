@@ -82,17 +82,19 @@ export default class Server {
   }
 
   public setRouter(router: Router): void {
-    if (this.running) {
-      throw Error('Cannot change router after application has started');
-    }
+    this.checkRunning();
     this.router = router;
   }
 
   public setPort(port: number | string): void {
-    if (this.running) {
-      throw Error('Cannot change port after application has started.');
-    }
+    this.checkRunning();
     this.port = port;
+  }
+
+  private checkRunning(): void {
+    if (this.running) {
+      throw new Error('Server is already running.');
+    }
   }
 
   /**
@@ -116,6 +118,7 @@ export default class Server {
     notFoundCallback = this.notFound,
     errorHandler = this.errorHandler,
   }: IRouteOptions = {}): void {
+    this.checkRunning();
     // Use request loggers.
     const requestLoggers = this.getLoggers(LoggerTypes.Request);
     this.app.use(requestLoggers);
@@ -131,6 +134,7 @@ export default class Server {
   }
 
   public start(): void {
+    this.checkRunning();
     this.server.listen(this.port, () => {
       this.running = true;
       if (config.get('NODE_ENV') === 'development') {
