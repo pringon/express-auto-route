@@ -11,7 +11,9 @@ jobs:
       - image: circleci/node:10.15.3
     steps:
       - checkout
-      - run: |
+      - run: 
+        name: Merge with master 
+        command: |
         git config user.name "dummy"
         git config user.email "dumy@example.org"
         git fetch origin master
