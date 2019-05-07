@@ -48,6 +48,10 @@ export default class Server {
     this.running = false;
   }
 
+  /**
+   * Method that takes a list of middleware and adds it to the current middleware array.
+   * @param {RequestHandler[]} middleware collects all arguments into a single array.
+   */
   public use(...middleware: RequestHandler[]): void {
     this.middleware.push(...middleware);
   }
@@ -58,6 +62,11 @@ export default class Server {
       .map(logger => logger.handler);
   }
 
+  /**
+   * Method that takes a logger middleware and routes it before all other middleware.
+   * @param {Logger} handler logger middleware to be used.
+   * @param {LoggerTypes} type type of logger (error or request).
+   */
   public setLogger(handler: Logger, type: LoggerTypes) {
     this.loggers.push({
       handler,
@@ -81,16 +90,27 @@ export default class Server {
     return this.server;
   }
 
+  /**
+   * Method that allows you to set a custom router that implements the router interface.
+   * @param {Router} router object to assign to router.
+   */
   public setRouter(router: Router): void {
     this.checkRunning();
     this.router = router;
   }
 
+  /**
+   * Method that allows setting a different port that the one in configuration.
+   * @param {number | string} port value to assign to port.
+   */
   public setPort(port: number | string): void {
     this.checkRunning();
     this.port = port;
   }
 
+  /**
+   * Methods that stops the client from doing dumb **** while the app is running.
+   */
   private checkRunning(): void {
     if (this.running) {
       throw new Error('Server is already running.');
@@ -114,6 +134,10 @@ export default class Server {
     });
   }
 
+  /**
+   * Method that routes your application.
+   * @param {IRouteOptions} options object containing options to customise the routing.
+   */
   public route({
     notFoundCallback = this.notFound,
     errorHandler = this.errorHandler,
@@ -133,6 +157,9 @@ export default class Server {
     this.app.use(errorHandler);
   }
 
+  /**
+   * Method that starts your app and listens on the port specified in config file (or 3000).
+   */
   public start(): void {
     this.checkRunning();
     this.server.listen(this.port, () => {
