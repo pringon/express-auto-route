@@ -13,7 +13,7 @@ jobs:
     steps:
       - checkout
       - run:
-        name: 'Merge with master'
+        name: Merge with master
         command: |
           git config user.name "dummy"
           git config user.email "dumy@example.org"
