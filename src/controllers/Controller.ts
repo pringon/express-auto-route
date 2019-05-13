@@ -1,10 +1,15 @@
-import { IRoute } from '../interfaces/Route';
+export type Route = {
+  method: string,
+  url: string,
+  middlewares: Function[],
+  methodName: string,
+};
 
 abstract class Controller {
   // @ts-ignore
-  protected $routes: IRoute[];
+  protected $routes: Route[];
 
-  public getRoutes(): IRoute[] {
+  public getRoutes(): Route[] {
     if (!this.$routes) {
       throw new RangeError('No routes defined. Did you use routing decorators?');
     }
