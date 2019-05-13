@@ -20,3 +20,21 @@
 
 - ```npm run test```
   - Will run your test suite.
+
+## Dynamic routing
+
+- The philosophy behind this template is to remove the hassle of routing your controllers, opting instead to make use of decorators to remove this need.
+  - All you have to do is create a *.controller.ts file in the controller directory and have the default exported class extend Controller. 
+  - You can then make use for those lovely Flask-inspired routing decorators.
+
+```typescript
+class ExampleController extends Controller {
+
+  @get('/')
+  hello(req: Request, res: Response, next: NextFunction) {
+    const greeting = req.body.greeting || 'Hello';
+    const name = req.body.name || 'world';
+    res.json({ message: `${greeting} ${name}!` });
+  }
+}
+```
