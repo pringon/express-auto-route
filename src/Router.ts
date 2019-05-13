@@ -1,7 +1,6 @@
-import { IRoute } from './interfaces/Route';
 import { Application } from 'express';
 import { getControllers } from './controllers';
-import { ControllerClass } from './controllers/Controller';
+import { ControllerClass, Route } from './controllers/Controller';
 
 export default class Router {
   private controllers: ControllerClass[];
@@ -33,7 +32,7 @@ export default class Router {
     this.controllers.forEach((controller) => {
       // @ts-ignore
       const instance = new controller();
-      instance.getRoutes().forEach((route: IRoute) => {
+      instance.getRoutes().forEach((route: Route) => {
         const { methodName, method, url, middlewares } = route;
         // @ts-ignore
         app[method](url, middlewares, instance[methodName]);
