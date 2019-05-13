@@ -4,11 +4,13 @@ workflows:
   test:
     jobs:
       - test
+  commit:
+    jobs:
+      - audit
 jobs:
   test:
     docker:
-      # Use latest LTS version.
-      - image: circleci/node:10.15.3
+      - image: node:10-alpine
     steps:
       - checkout
       - run: 
@@ -32,3 +34,24 @@ jobs:
           paths:
             - node_modules
           key: npm-modules-{{ .Branch }}-{{ checksum "package-lock.json" }}
+  audit:
+    docker:
+      - image: node:10-alpine
+    steps:
+      - checkout
+      - run: set -o pipefail && npm audit --force 2>&1 | tee audit.log && exit 1
+      - run:
+          name: Audit fix
+          command: npm audit fix
+          when: on_fail
+      - run:
+          name: Create PR
+          command: |
+            git config --global user.email "audit@example.org"
+            git config --global user.name "Audit Bot"
+            git checkout -b ci/npm-audit-fix-$CIRCLE_BUILD_NUM
+            git add package.json package-lock.json
+            git commit -m "audit fix"
+            git push origin ci/npm-audit-fix-$CIRCLE_BUILD_NUM
+            hub pull-request -m "[Security] Audit Fix" -m "$(cat audit.log | tail -2)" -m "$CIRCLE_BUILD_URL"
+          when: on_fail
