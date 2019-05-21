@@ -1,3 +1,9 @@
+import config from './config';
+
+if (config.get('NODE_ENV') === 'development') {
+  require('source-map-support').install();
+}
+
 import Server, { LoggerTypes } from './Server';
 
 import { requestLogger, errorLogger } from './lib/logger';
