@@ -7,7 +7,7 @@
   "scripts": {
     "start": "npm run build && node dist/index.js",
     "dev": "nodemon --config nodemon.json",
-    "test": "jest",
+    "test": "npm run build && jest",
     "test:lint": "npm run test && npm run lint",
     "build": "tsc -p .",
     "lint": "tslint --project tsconfig.json src/{,**/}*.ts"
@@ -26,7 +26,6 @@
     "node-mocks-http": "^1.7.5",
     "jest": "^24.8.0",
     "nodemon": "^1.19.0",
-    "ts-jest": "^24.0.2",
     "tslint": "^5.16.0",
     "tslint-config-airbnb": "^5.11.1",
     "tslint-eslint-rules": "^5.4.0",
