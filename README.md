@@ -28,6 +28,7 @@
   - You can then make use for those lovely Flask-inspired routing decorators.
 
 ```typescript
+@controller('/example')
 class ExampleController extends Controller {
 
   @get('/')
