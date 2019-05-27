@@ -38,10 +38,10 @@ export default class Server {
   private port: number | string;
   private running: boolean;
 
-  constructor() {
+  constructor(router: Router = Router.getEmptyRouter()) {
     this.app = express();
     this.server = http.createServer(this.app);
-    this.router = Router.getEmptyRouter();
+    this.router = router;
     this.middleware = [];
     this.loggers = [];
     this.port = config.get('PORT') || Server.PORT;
@@ -63,11 +63,11 @@ export default class Server {
   }
 
   /**
-   * Method that takes a logger middleware and routes it before all other middleware.
+   * Method that adds a logger middleware to the list of loggers.
    * @param {Logger} handler logger middleware to be used.
    * @param {LoggerTypes} type type of logger (error or request).
    */
-  public setLogger(handler: Logger, type: LoggerTypes) {
+  public addLogger(handler: Logger, type: LoggerTypes) {
     this.loggers.push({
       handler,
       type,
@@ -88,15 +88,6 @@ export default class Server {
    */
   public getServer(): http.Server {
     return this.server;
-  }
-
-  /**
-   * Method that allows you to set a custom router that implements the router interface.
-   * @param {Router} router object to assign to router.
-   */
-  public setRouter(router: Router): void {
-    this.checkRunning();
-    this.router = router;
   }
 
   /**
@@ -125,8 +116,7 @@ export default class Server {
     return new Promise<Server>(async(resolve, reject) => {
       try {
         const router = await Router.getDefault();
-        const server = new Server();
-        server.setRouter(router);
+        const server = new Server(router);
         return resolve(server);
       } catch (e) {
         return reject(e);
