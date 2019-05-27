@@ -9,8 +9,8 @@ import bodyParser from 'body-parser';
     bodyParser.json(),
     bodyParser.urlencoded({ extended: true }),
   );
-  app.setLogger(requestLogger, LoggerTypes.Request);
-  app.setLogger(errorLogger, LoggerTypes.Error);
+  app.addLogger(requestLogger, LoggerTypes.Request);
+  app.addLogger(errorLogger, LoggerTypes.Error);
   app.route();
   app.start();
 })();
