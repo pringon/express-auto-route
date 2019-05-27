@@ -67,11 +67,7 @@ export default class Server {
    * @param {Logger} handler logger middleware to be used.
    * @param {LoggerTypes} type type of logger (error or request).
    */
-<<<<<<< HEAD
   public addLogger(handler: LoggerHandler, type: LoggerTypes) {
-=======
-  public addLogger(handler: Logger, type: LoggerTypes) {
->>>>>>> 3b84c6f027d2d513cd9f49978fcd1433557be1e0
     this.loggers.push({
       handler,
       type,
