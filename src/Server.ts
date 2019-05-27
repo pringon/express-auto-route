@@ -21,12 +21,12 @@ interface IRouteOptions {
 
 export enum LoggerTypes { Request, Error }
 
-type Logger = RequestHandler | ErrorRequestHandler;
+type LoggerHandler = RequestHandler | ErrorRequestHandler;
 
-interface ILogger {
-  handler: Logger;
-  type: LoggerTypes;
-}
+type Logger = {
+  handler: LoggerHandler,
+  type: LoggerTypes,
+};
 
 export default class Server {
   public static readonly PORT: number = 3000;
@@ -34,7 +34,7 @@ export default class Server {
   private server: http.Server;
   private router: Router;
   private middleware: RequestHandler[];
-  private loggers: ILogger[];
+  private loggers: Logger[];
   private port: number | string;
   private running: boolean;
 
@@ -56,7 +56,7 @@ export default class Server {
     this.middleware.push(...middleware);
   }
 
-  private getLoggers(type: LoggerTypes): Logger[] {
+  private getLoggers(type: LoggerTypes): LoggerHandler[] {
     return this.loggers
       .filter(logger => logger.type === type)
       .map(logger => logger.handler);
@@ -67,7 +67,11 @@ export default class Server {
    * @param {Logger} handler logger middleware to be used.
    * @param {LoggerTypes} type type of logger (error or request).
    */
+<<<<<<< HEAD
+  public addLogger(handler: LoggerHandler, type: LoggerTypes) {
+=======
   public addLogger(handler: Logger, type: LoggerTypes) {
+>>>>>>> 3b84c6f027d2d513cd9f49978fcd1433557be1e0
     this.loggers.push({
       handler,
       type,
