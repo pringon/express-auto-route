@@ -128,7 +128,7 @@ export default class Server {
    * Method that routes your application.
    * @param {IRouteOptions} options object containing options to customise the routing.
    */
-  public route({
+  private route({
     notFoundCallback = this.notFound,
     errorHandler = this.errorHandler,
   }: IRouteOptions = {}): void {
@@ -152,6 +152,7 @@ export default class Server {
    */
   public start(): void {
     this.checkRunning();
+    this.route();
     this.server.listen(this.port, () => {
       this.running = true;
       if (config.get('NODE_ENV') === 'development') {
