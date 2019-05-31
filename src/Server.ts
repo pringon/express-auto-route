@@ -147,12 +147,7 @@ export default class Server {
     this.app.use(errorHandler);
   }
 
-  /**
-   * Method that starts your app and listens on the port specified in config file (or 3000).
-   */
-  public start(): void {
-    this.checkRunning();
-    this.route();
+  private listen(): void {
     this.server.listen(this.port, () => {
       this.running = true;
       if (config.get('NODE_ENV') === 'development') {
@@ -160,6 +155,15 @@ export default class Server {
         console.log(`Server is listening on port ${this.port}.`);
       }
     });
+  }
+
+  /**
+   * Method that starts your app and listens on the port specified in config file (or 3000).
+   */
+  public start(): void {
+    this.checkRunning();
+    this.route();
+    this.listen();
   }
 
   private notFound(req: Request, res: Response, next: NextFunction): void {
