@@ -132,7 +132,6 @@ export default class Server {
     notFoundCallback = this.notFound,
     errorHandler = this.errorHandler,
   }: IRouteOptions = {}): void {
-    this.checkRunning();
     // Use request loggers.
     const requestLoggers = this.getLoggers(LoggerTypes.Request);
     this.app.use(requestLoggers);
