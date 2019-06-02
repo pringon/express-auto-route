@@ -68,6 +68,7 @@ export default class Server {
    * @param {LoggerTypes} type type of logger (error or request).
    */
   public addLogger(handler: LoggerHandler, type: LoggerTypes) {
+    this.checkRunning();
     this.loggers.push({
       handler,
       type,
