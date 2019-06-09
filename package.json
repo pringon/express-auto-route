@@ -8,7 +8,7 @@
     "start": "node dist/index.js",
     "start:build": "npm run build && npm start",
     "dev": "nodemon --config nodemon.json",
-    "test": "docker run -v $(pwd)/package.json:/opt/server/package.json -v $(pwd)/package-lock.json:/opt/server/package-lock.json -v src:/opt/server/src -ti pringon/express-typescript npm ci && jest",
+    "test": "./test.sh",
     "test:lint": "npm run test && npm run lint",
     "build": "tsc -p .",
     "lint": "tslint --project tsconfig.json src/{,**/}*.ts"
