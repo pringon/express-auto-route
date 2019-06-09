@@ -9,6 +9,12 @@ WORKDIR /opt/server
 RUN npm install
 RUN npm run build
 
+# Remove unecessary files.
+RUN rm -rf src node_modules
+
+# Instal dependencies.
+RUN npm ci
+
 # Export port.
 EXPOSE 3000
 
