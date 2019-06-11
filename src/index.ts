@@ -11,6 +11,5 @@ import bodyParser from 'body-parser';
   );
   app.addLogger(requestLogger, LoggerTypes.Request);
   app.addLogger(errorLogger, LoggerTypes.Error);
-  app.route();
   app.start();
 })();

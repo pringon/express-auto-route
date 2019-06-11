@@ -68,6 +68,7 @@ export default class Server {
    * @param {LoggerTypes} type type of logger (error or request).
    */
   public addLogger(handler: LoggerHandler, type: LoggerTypes) {
+    this.checkRunning();
     this.loggers.push({
       handler,
       type,
@@ -128,11 +129,10 @@ export default class Server {
    * Method that routes your application.
    * @param {IRouteOptions} options object containing options to customise the routing.
    */
-  public route({
+  private route({
     notFoundCallback = this.notFound,
     errorHandler = this.errorHandler,
   }: IRouteOptions = {}): void {
-    this.checkRunning();
     // Use request loggers.
     const requestLoggers = this.getLoggers(LoggerTypes.Request);
     this.app.use(requestLoggers);
@@ -147,11 +147,7 @@ export default class Server {
     this.app.use(errorHandler);
   }
 
-  /**
-   * Method that starts your app and listens on the port specified in config file (or 3000).
-   */
-  public start(): void {
-    this.checkRunning();
+  private listen(): void {
     this.server.listen(this.port, () => {
       this.running = true;
       if (config.get('NODE_ENV') === 'development') {
@@ -159,6 +155,15 @@ export default class Server {
         console.log(`Server is listening on port ${this.port}.`);
       }
     });
+  }
+
+  /**
+   * Method that starts your app and listens on the port specified in config file (or 3000).
+   */
+  public start(): void {
+    this.checkRunning();
+    this.route();
+    this.listen();
   }
 
   private notFound(req: Request, res: Response, next: NextFunction): void {
