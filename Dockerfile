@@ -13,7 +13,7 @@ RUN npm run build
 RUN rm -rf src node_modules
 
 # Instal dependencies.
-RUN npm ci
+RUN npm ci --only=production
 
 # Export port.
 EXPOSE 3000
