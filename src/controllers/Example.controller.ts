@@ -23,7 +23,6 @@ class ExampleController extends Controller {
     const name = req.body.name || 'world';
     res.json({ message: `${greeting} ${name}!` });
   }
-
 }
 
 export default ExampleController;

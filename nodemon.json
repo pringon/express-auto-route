@@ -2,5 +2,5 @@
   "verbose": true,
   "ext": "js,json,ts",
   "watch": "src/**/*",
-  "exec": "npm run lint && npm start"
+  "exec": "npm run lint && npm run start:build"
 }

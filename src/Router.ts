@@ -9,16 +9,10 @@ export default class Router {
     this.controllers = controllers;
   }
 
-  public static getDefault(): Promise<Router> {
-    return new Promise<Router>(async (resolve, reject) => {
-      try {
-        const controllers = await getControllers();
-        const router = new Router(controllers);
-        return resolve(router);
-      } catch (e) {
-        return reject(e);
-      }
-    });
+  public static async getDefault(): Promise<Router> {
+    const controllers = await getControllers();
+    const router = new Router(controllers);
+    return router;
   }
 
   public static getEmptyRouter(): Router {

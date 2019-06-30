@@ -112,16 +112,10 @@ export default class Server {
    * A static method that returs a server using the default router provided by this project.
    * @returns {Promise<Server>} promise resolves to an instance of the server class.
    */
-  public static getDefault(): Promise<Server> {
-    return new Promise<Server>(async(resolve, reject) => {
-      try {
-        const router = await Router.getDefault();
-        const server = new Server(router);
-        return resolve(server);
-      } catch (e) {
-        return reject(e);
-      }
-    });
+  public static async getDefault(): Promise<Server> {
+    const router = await Router.getDefault();
+    const server = new Server(router);
+    return server;
   }
 
   /**
