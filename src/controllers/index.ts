@@ -3,8 +3,6 @@ import path from 'path';
 import { promisify } from 'util';
 import { ControllerClass } from './Controller';
 
-const basename = path.basename(__filename);
-
 /**
  * @param {string} file filename of file in current directory.
  * @returns {string} absolute path of given file.
@@ -33,7 +31,7 @@ const importModules = async (controllerFiles: string[]): Promise<any> => (
  * @returns {boolean} result of checking whether the file is a controller or not.
  */
 const filterControllers = (file: string): boolean => (
-  (file[0] !== '.') && (file.indexOf('.controller.') !== -1)
+  (/^[^.][A-Za-z]{1,}.controller.(js|ts)$/.test(file))
 );
 
 /**
