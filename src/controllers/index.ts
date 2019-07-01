@@ -38,19 +38,13 @@ const filterControllers = (file: string): boolean => (
  * Asynchronously returns all controllers in this directory.
  * @returns {Promise<ControllerClass[]>} promise that resolves to array of controllers.
  */
-export const getControllers = (): Promise<ControllerClass[]> => {
-  return new Promise<ControllerClass[]>(async (resolve, reject) => {
-    try {
-      // Load controller files.
-      const controllerFiles = (await readDir(__dirname))
-        .filter(filterControllers);
-      // Import controller modules.
-      const modules = (await importModules(controllerFiles));
-      // Map the controller classes from the array of modules.
-      const controllers = modules.map((module: any) => module.default);
-      return resolve(controllers);
-    } catch (e) {
-      return reject(e);
-    }
-  });
+export const getControllers = async (): Promise<ControllerClass[]> => {
+  // Load controller files.
+  const controllerFiles = (await readDir(__dirname))
+    .filter(filterControllers);
+  // Import controller modules.
+  const modules = (await importModules(controllerFiles));
+  // Map the controller classes from the array of modules.
+  const controllers = modules.map((module: any) => module.default);
+  return controllers;
 };
