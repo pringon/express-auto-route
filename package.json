@@ -31,7 +31,7 @@
     "tslint": "^5.20.1",
     "tslint-config-airbnb": "^5.11.1",
     "tslint-eslint-rules": "^5.4.0",
-    "typescript": "^3.9.5"
+    "typescript": "^3.9.10"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
